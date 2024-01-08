@@ -6,5 +6,8 @@ jobs:
        - "3.8"
       arch: amd64
       dist: focal
+      name: "SBOM generation example job"
       script:
-        - python hello_world.py
+        - # Add commands to generate SBOM here
+        - sbom_generation_command
+        - # Other build steps
